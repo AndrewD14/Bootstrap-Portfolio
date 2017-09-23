@@ -1,13 +1,5 @@
 /*tablet overriding styles*/
 @media screen and (min-width: 768px) {
-  h2 {
-    font-size: 25px;
-  }
-
-  header a {
-    font-size: 20px;
-  }
-
   nav {
     padding-top: 20px;
   }
@@ -16,10 +8,6 @@
     border-right: solid;
     border-width: 2px;
     border-color: #777777;
-  }
-
-  .name h1 {
-    font-size: 25px;
   }
 
   .main {
@@ -62,12 +50,6 @@
     padding-right:30px;
     padding-top: 5px;
     padding-bottom: 5px;
-  }
-
-  .connect img {
-    height: 50px;
-    width: 50px;
-    margin-bottom: 7px;
   }
 
   footer {

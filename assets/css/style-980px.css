@@ -1,25 +1,14 @@
 /*desktop overriding styles*/
 @media screen and (min-width: 980px) {
-	h2 {
-		font-size: 25px;
-	}
-
-	header a {
-		font-size: 20px;
-	}
-
 	nav {
 		padding-top: 20px;
+  		padding-bottom: 0;
 	}
 
 	nav .col-md-4:not(:last-child) {
 		border-right: solid;
 		border-width: 2px;
 		border-color: #777777;
-	}
-
-	.name h1 {
-		font-size: 28px;
 	}
 
 	.main {
@@ -34,6 +23,7 @@
 	#about-img {
 		margin-right: 10px;
 		float: left;
+		width: auto;
 	}
 
 	/*main portfolio images*/
@@ -53,7 +43,6 @@
 	  top: 67%;
 	}
 
-
 	.connect {
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -61,12 +50,6 @@
 		padding-right:30px;
 		padding-top: 5px;
 		padding-bottom: 5px;
-	}
-
-	.connect img {
-		height: 50px;
-		width: 50px;
-		margin-bottom: 7px;
 	}
 
 	footer {
