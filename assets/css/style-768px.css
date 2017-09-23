@@ -42,6 +42,13 @@
     top: 75%;
   }
 
+  .portfolio .portfolio-full:nth-child(even) {
+    float: right;
+  }
+
+  .portfolio .portfolio-full:nth-child(odd) {
+    float: left;
+  }
 
   .connect {
     margin-top: 10px;
