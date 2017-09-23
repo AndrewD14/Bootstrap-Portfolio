@@ -9,10 +9,6 @@ h1 {
 	color: white;
 }
 
-h2 {
-	font-size: 25px;
-}
-
 header {
 	border-color: #cccccc;
 	border-style: solid;
@@ -24,16 +20,6 @@ header a {
 	text-decoration: none;
 	color: #777777;
 	font-size: 20px;
-}
-
-nav {
-	padding-top: 20px;
-}
-
-nav .col-md-4:not(:last-child) {
-	border-right: solid;
-	border-width: 2px;
-	border-color: #777777;
 }
 
 /*2 classes used to center items*/
@@ -54,17 +40,10 @@ nav .col-md-4:not(:last-child) {
 }
 
 .name h1 {
-	font-size: 28px;
 	font-weight: bold;
 }
 
 .main {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 5px;
-	padding-bottom: 5px;
 	background-color: #ffffff;
 	border-color: #dddddd;
 	border-style: solid;
@@ -80,14 +59,8 @@ nav .col-md-4:not(:last-child) {
 	margin-bottom: 10px;
 }
 
-#about-img {
-	margin-right: 10px;
-}
-
 /*main portfolio images*/
 .portfolio-full img {
-  height: 180px;
-  width: 250px;
   display: block;
   position: relative;
   z-index: 1;
@@ -95,8 +68,6 @@ nav .col-md-4:not(:last-child) {
 
 .portfolio-full{
   position: relative;
-  margin-bottom: 20px;
-  width: 250px;
 }
 
 .portfolio-label {
@@ -104,21 +75,12 @@ nav .col-md-4:not(:last-child) {
   color: white;
   font-weight: bold;
   background-color: #4aaaa5;
-  height: 2em;
   position: absolute;
-  font-size: 1.8em;
-  top: 67%;
   z-index: 2;
 }
 
 
 .connect {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding-left: 30px;
-	padding-right:30px;
-	padding-top: 5px;
-	padding-bottom: 5px;
 	background-color: #ffffff;
 	border-color: #dddddd;
 	border-style: solid;
@@ -131,9 +93,7 @@ nav .col-md-4:not(:last-child) {
 }
 
 .connect img {
-	height: 50px;
-	width: 50px;
-	margin-bottom: 7px;
+
 }
 
 .connect-border {
@@ -193,7 +153,6 @@ nav .col-md-4:not(:last-child) {
 
 footer {
 	background-color: #666666;
-	height: 80px;
 	margin: 0;
 	padding: 0;
 	color: white;
