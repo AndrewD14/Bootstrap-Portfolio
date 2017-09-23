@@ -1,0 +1,76 @@
+/*tablet overriding styles*/
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 25px;
+  }
+
+  header a {
+    font-size: 20px;
+  }
+
+  nav {
+    padding-top: 20px;
+  }
+
+  nav .col-md-4:not(:last-child) {
+    border-right: solid;
+    border-width: 2px;
+    border-color: #777777;
+  }
+
+  .name h1 {
+    font-size: 25px;
+  }
+
+  .main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  #about-img {
+    margin-right: 10px;
+    float: left;
+  }
+
+  /*main portfolio images*/
+  .portfolio-full img {
+    height: 180px;
+    width: 250px;
+  }
+
+  .portfolio-full{
+    margin-bottom: 20px;
+    width: 250px;
+    padding-left: 0;
+  }
+
+  .portfolio-label {
+    height: 1.5em;
+    font-size: 1.6em;
+    top: 75%;
+  }
+
+
+  .connect {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .connect img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 7px;
+  }
+
+  footer {
+    height: 80px;
+  }
+}
