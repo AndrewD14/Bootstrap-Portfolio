@@ -1,0 +1,211 @@
+body{
+	background: url("../images/diamond_upholstery.png") repeat;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+header {
+	border-color: #cccccc;
+	border-style: solid;
+	border-bottom-width: 2px;
+	background-color: #ffffff;
+}
+
+header a {
+	text-decoration: none;
+	color: #777777;
+	font-size: 20px;
+}
+
+nav {
+	padding-top: 20px;
+}
+
+nav .col-md-4:not(:last-child) {
+	border-right: solid;
+	border-width: 2px;
+	border-color: #777777;
+}
+
+/*2 classes used to center items*/
+.parent-center {
+  display: table;
+  text-align: center;
+  width: 100%;
+}
+
+.parent-center-child {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.name {
+	background-color: #4aaaa5;
+	text-align: center;
+}
+
+.name h1 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.main {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.main hr {
+	border-width: 2px;
+	border-style: solid;
+}
+
+.main p{
+	margin-bottom: 10px;
+}
+
+#about-img {
+	margin-right: 10px;
+}
+
+/*main portfolio images*/
+.portfolio-full img {
+  height: 180px;
+  width: 250px;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio-full{
+  position: relative;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.portfolio-label {
+  float: left;
+  color: white;
+  font-weight: bold;
+  background-color: #4aaaa5;
+  height: 2em;
+  position: absolute;
+  font-size: 1.8em;
+  top: 67%;
+  z-index: 2;
+}
+
+
+.connect {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	padding-right:30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.connect hr {
+	border-width: 2px;
+	border-style: solid;
+}
+
+.connect img {
+	height: 50px;
+	width: 50px;
+	margin-bottom: 7px;
+}
+
+.connect-border {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 12px;
+}
+
+#github {
+	background-color: black;
+}
+
+.menuBtn{
+    width: 350px;
+	height: 30px;
+	margin: 10px 0;
+}
+
+.menuBtn button:active,
+.menuBtn button.active,
+.menuBtn button:focus {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.menuBtn button{
+    text-align: center;
+    color:white;
+    border: 3.0px solid;
+    border-color: #0059b3;
+    font-size:15px;
+    font-weight:bold;
+    font-family: PeriodicoDisplay-Rg, Georgia;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 8px;
+    text-decoration: none !important;
+    background-image: linear-gradient(to right, #2f6a67 50%, #4aaaa5 50%);
+    background-position: 0% 0;
+    background-size: 205% auto;
+    transition: background-position 0.2s ease-out;
+}
+
+.menuBtn button:hover{   
+    text-decoration: none !important;
+    background-position: -97% 0;
+}
+
+.menuBtn button::text{
+    text-decoration: none !important;
+}
+
+footer {
+	background-color: #666666;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+footer hr{
+	display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 8px;
+    color: #4faaa4;
+}
